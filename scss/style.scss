@@ -38,3 +38,36 @@ ul {
 img {
     width: 100%;
 }
+
+// Header
+header{
+    .container{
+       @include flex-display(flex,center,space-between);
+       background-color: antiquewhite;
+       padding-top: 1rem;
+
+    }
+    .logo{
+       width: 15%;
+       display: flex;
+       justify-content: center;
+
+        img{
+            border-radius: 1rem;
+            width: 100%;
+            max-width: 10rem;
+        }
+    }
+    .profil {
+        width: 15%;
+        img {
+            width: 100%;
+            max-width: 10rem;
+            border-radius: 5rem;
+            
+        }
+    }
+    
+}
+
+//  /Header

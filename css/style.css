@@ -38,3 +38,29 @@ ul {
 img {
   width: 100%;
 }
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  padding-top: 1rem;
+}
+header .logo {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+header .logo img {
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 10rem;
+}
+header .profil {
+  width: 15%;
+}
+header .profil img {
+  width: 100%;
+  max-width: 10rem;
+  border-radius: 5rem;
+}
