@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaplanark/gulp-sass.git"
+    "url": "git+https://github.com/fatihccetin/gulp-sass-example-master"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaplanark/gulp-sass/issues"
+    "url": "https://github.com/fatihccetin/gulp-sass-example-master"
   },
-  "homepage": "https://github.com/kaplanark/gulp-sass#readme",
+  "homepage": "https://github.com/fatihccetin/gulp-sass-example-master",
   "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",
