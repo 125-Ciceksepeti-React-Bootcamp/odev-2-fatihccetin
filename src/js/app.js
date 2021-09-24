@@ -7,7 +7,7 @@ import Duck from './models/duck';
 const cardContainer = document.querySelector('.card-container');
 
 // Create objects from Dog and Duck classes
-const dog1 = new Dog('Max', '../images/content/dog1.jfif', 4, 5);
+const dog1 = new Dog('Max', 'https://images.unsplash.com/photo-1501721857084-6b993d35774a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8ZHVja3x8fHx8fDE2MzIzNDY4NDQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=250', 4, 5);
 cardContainer.appendChild(dog1.create());
 const dog2 = new Dog('Rex', '../images/content/dog2.jfif', 4, 1);
 cardContainer.appendChild(dog2.create());
