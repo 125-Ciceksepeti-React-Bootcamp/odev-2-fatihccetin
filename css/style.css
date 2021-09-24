@@ -67,7 +67,7 @@ header .profil img {
 
 .main-section .container .card-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   row-gap: 1rem;
   padding: 4rem;
   column-gap: 1rem;
